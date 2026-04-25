@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+#header {
+    height: 130px;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: right;
+    margin-top: 40px;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#slider {
+    width: 940px;
+    margin: 10px auto;
+}
+
+#slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#aside {
+    width: 220px;
+    float: left;
+    padding: 20px 10px;
+}
+
+#aside h2 {
+    color: #d23434;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ddd;
+}
+
+#aside ul {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+#aside ul li {
+    padding: 5px 0;
+}
+
+#aside a {
+    text-decoration: none;
+    color: #333;
+}
+
+#content {
+    width: 720px;
+    float: right;
+    padding: 10px;
+}
+
+.mau_thiet_ke_moi {
+    width: 720px;
+    padding-top: 62px;
+}
+
+.san_pham {
+    width: 220px;
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.san_pham img {
+    width: 100%;
+    height: auto;
+}
+
+.san_pham h3 {
+    color: #303131;
+    font-size: 15px;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin: 10px 0 5px;
+}
+
+.san_pham p {
+    color: #787a7b;
+    font-size: 12px;
+    font-family: Tahoma, Geneva, sans-serif;
+    line-height: 24px;
+}
+
+.noi_that_cao_cap {
+    width: 720px;
+    padding-top: 42px;
+    overflow: hidden;
+}
+
+.sp_cao_cap {
+    width: 220px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+.sp_cao_cap img {
+    width: 100%;
+    height: auto;
+}
+
+.sp_cao_cap h3 {
+    color: #d23434;
+    font-size: 15px;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin: 8px 0;
+}
+
+.sp_cao_cap p {
+    color: #787a7b;
+    font-size: 12px;
+    font-family: Tahoma, Geneva, sans-serif;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.sp_cao_cap a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #d23434;
+    padding: 0 15px;
+    line-height: 30px;
+    display: inline-block;
+    float: right;
+}
+
+#footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.dia_chi {
+    float: left;
+    width: 60%;
+}
+
+.icon {
+    float: right;
+    width: 80px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icon img {
+    width: 50px;
+    height: auto;
+}
